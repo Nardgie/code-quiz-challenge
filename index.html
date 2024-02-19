@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="#">View Highscores</a>
+        <a href="highscores.html">View Highscores</a>
         <!--Timer; Time: Countdown from 75 seconds-->
         <span id="time"></span>
     </header>
@@ -35,7 +35,7 @@
                 <button class="choice" id="c3"></button>
                 <button class="choice" id="c4"></button>
             </div>
-            <!-- <hr> -->
+            <hr>
 <!--Feedback for correct/incorrect answers-->
             <div class="feedback">
                 <p id="feedback"></p>
@@ -46,7 +46,7 @@
             <h2 id="done">All done!</h2>
             <p id="final-score"></p>
 <!--Form for initials-->
-            <form action="highscores.html">
+            <form id="highscoresForm" action="highscores.html">
                 <input type="text" name="initials" id="initials" placeholder="Enter initials">
                 <button id="submit">Submit</button>
             </form>
