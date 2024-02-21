@@ -124,7 +124,7 @@ function displayQuestion() {
                 score -= 2
                 line.style.display = "block";
                 feedback.textContent = "Incorrect. Please try again.";
-                // timeLeft -= 10;
+                timeLeft -= 10;
                 choice.addEventListener("click", function (event) {
                     event.preventDefault();
                     event.stopPropagation();
